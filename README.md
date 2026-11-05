@@ -24,6 +24,11 @@
 
 Configuration : Windows 10 ou 11, 64 bits. Les réglages sont enregistrés dans `%AppData%\Navis`.
 
+**Mises à jour** : à partir de la version 0.4.0, Navis vérifie lui-même s'il existe une nouvelle version
+(au plus une fois par jour) et propose de l'installer d'un clic. Vous pouvez aussi passer par le menu
+**Aide > Rechercher les mises à jour**. Si vous avez la version 0.3.0, téléchargez une dernière fois
+la nouvelle version à la main.
+
 ## Ce que fait Navis
 
 | | |
@@ -37,6 +42,7 @@ Configuration : Windows 10 ou 11, 64 bits. Les réglages sont enregistrés dans 
 | **Index** | Résultats en moins d'un quart de seconde sur tout un disque, mis à jour en direct |
 | **Lecteurs** | Tous les disques, clés USB et lecteurs réseau dans le panneau latéral, avec leur espace libre |
 | **Menu Windows** | Le vrai menu clic droit (7-Zip, Git, Envoyer vers…), en plus des actions de Navis |
+| **Mises à jour** | Vérification automatique et installation en un clic, sans quitter l'application |
 
 ## Raccourcis utiles
 
@@ -71,6 +77,14 @@ Configuration : Windows 10 ou 11, 64 bits. Les réglages sont enregistrés dans 
 ## Nouveautés
 
 <!-- Le contenu ci-dessous est recopié automatiquement depuis CHANGELOG.md par Publier.bat. -->
+### 0.4.0 — 4 novembre 2026
+
+#### Mises à jour automatiques
+- Au démarrage (au plus une fois par jour), Navis vérifie s'il existe une nouvelle version sur GitHub.
+- Si oui, un bandeau propose **Installer et redémarrer** : le téléchargement et le remplacement de l'exe se font tout seuls, puis Navis rouvre le dossier où vous étiez.
+- Menu **Aide** : « Rechercher les mises à jour », vérification automatique activable ou non, « À propos de Navis ».
+- Sécurité : le fichier téléchargé est vérifié avant de remplacer l'exe ; en cas de problème, l'ancienne version reste en place.
+
 ### 0.3.0 — 4 novembre 2026
 
 Première version publique.

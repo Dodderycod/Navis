@@ -3,6 +3,14 @@
 Chaque version publiée a sa section ci-dessous ; le script `Publier.bat` reprend la section de la version
 pour les notes de la release GitHub et la page publique.
 
+## 0.4.0 — 4 novembre 2026
+
+### Mises à jour automatiques
+- Au démarrage (au plus une fois par jour), Navis vérifie s'il existe une nouvelle version sur GitHub.
+- Si oui, un bandeau propose **Installer et redémarrer** : le téléchargement et le remplacement de l'exe se font tout seuls, puis Navis rouvre le dossier où vous étiez.
+- Menu **Aide** : « Rechercher les mises à jour », vérification automatique activable ou non, « À propos de Navis ».
+- Sécurité : le fichier téléchargé est vérifié avant de remplacer l'exe ; en cas de problème, l'ancienne version reste en place.
+
 ## 0.3.0 — 4 novembre 2026
 
 Première version publique.
